@@ -11,7 +11,9 @@
 - Maven 3.6+
 
 ## Instalacja
-```bash
+```
+bash
 git clone https://github.com/P3CZRI6/Projekt_Java.git
+```
 
 ## Uruchomienie
