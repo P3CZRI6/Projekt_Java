@@ -1,6 +1,7 @@
 # Projekt_Java
 
 ## Opis
+Projekt Java to aplikacja napisana w Java z użyciem Spring Boot, która pozwala na pobieranie/wyświetlanie informacji o repozytoriach GitHub dla danego użytkownika. Aplikacja zwraca listę repozytoriów, które nie są forkami, wraz z informacjami o gałęziach i ostatnich commitach.
 
 ## Technologie
 - Java 21
@@ -71,6 +72,6 @@ Jeśli użytkownik GitHub nie istnieje, API zwróci odpowiedź 404:
 
 ## Autor
 ### Patryk Jędrzejczyk
-[Profil GitHub]{https://github.com/P3CZRI6/}
+[Profil GitHub](https://github.com/P3CZRI6/)
 
 
