@@ -18,7 +18,7 @@ git clone https://github.com/P3CZRI6/Projekt_Java.git
 ```
 
 2. Skonfiguruj właściwości aplikacji:
-Jeśli plik 'application.properties' nie znajduje się w folderze 'src/main/resources/', to należy do utworzyć i dodać właściwość:
+Jeśli plik __'application.properties'__ nie znajduje się w folderze __'src/main/resources/'__, to należy do utworzyć i dodać właściwość:
 ```
 github.api.url=https://api.github.com
 ```
@@ -34,7 +34,7 @@ Aby uruchomić aplikację lokalnie, wykonaj następujące polecenie:
 mvn spring-boot:run
 ```
 Aplikacja uruchomi się na domyślnym porcie 8080. 
-Możesz zmienić port w pliku 'application.properties' dodając:
+Możesz zmienić port w pliku `application.properties` dodając:
 ```
 server.port=8081
 ```
@@ -44,7 +44,7 @@ Otwórz przeglądarkę i podaj URL
 ```
 http://localhost:8080/api/users/{username}/repositories
 ```
-{username}-nazwa użytkownika GITHUB
+{username}-nazwa użytkownika GitHub
 ### Przykład:
 ```
 http://localhost:8080/api/users/P3CZRI6/repositories
@@ -60,10 +60,17 @@ Jeśli użytkownik GitHub nie istnieje, API zwróci odpowiedź 404:
 ```
 
 ## Struktura Projektu
-
-
+- `src/main/java/com/projectpj/projektpj/`
+  - `GitHubController.java`: Kontroler obsługujący zapytania HTTP.
+  - `GitHubClient.java`: Klient komunikujący się z API GitHub.
+  - `GitHubProperties.java`: Klasa konfiguracyjna dla właściwości aplikacji.
+  - `Branch.java`: Model danych reprezentujący gałąź repozytorium.
+  - `Repository.java`: Model danych reprezentujący repozytorium.
+- `src/main/resources/`
+  - `application.properties`: Plik konfiguracyjny aplikacji.
 
 ## Autor
-
+### Patryk Jędrzejczyk
+[Profil GitHub]{https://github.com/P3CZRI6/}
 
 
