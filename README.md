@@ -41,7 +41,7 @@ server.port=8081
 ```
 
 ## Użycie
-Otwórz przeglądarkę i podaj URL
+Otwórz przeglądarkę i wpisz ten adres URL
 ```
 http://localhost:8080/api/users/{username}/repositories
 ```
