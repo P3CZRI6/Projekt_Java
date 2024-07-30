@@ -18,7 +18,7 @@ git clone https://github.com/P3CZRI6/Projekt_Java.git
 ```
 
 2. Skonfiguruj właściwości aplikacji:
-Jeśli plik __'application.properties'__ nie znajduje się w folderze __'src/main/resources/'__, to należy do utworzyć i dodać właściwość:
+Jeśli plik `application.properties` nie znajduje się w folderze `src/main/resources/`, to należy do utworzyć i dodać właściwość:
 ```
 github.api.url=https://api.github.com
 ```
@@ -44,7 +44,7 @@ Otwórz przeglądarkę i podaj URL
 ```
 http://localhost:8080/api/users/{username}/repositories
 ```
-{username}-nazwa użytkownika GitHub
+**{username}-nazwa użytkownika GitHub**
 ### Przykład:
 ```
 http://localhost:8080/api/users/P3CZRI6/repositories
