@@ -29,6 +29,41 @@ mvn clean install
 ```
 
 ## Uruchomienie
-
+Aby uruchomić aplikację lokalnie, wykonaj następujące polecenie:
+```
+mvn spring-boot:run
+```
+Aplikacja uruchomi się na domyślnym porcie 8080. 
+Możesz zmienić port w pliku 'application.properties' dodając:
+```
+server.port=8081
+```
 
 ## Użycie
+Otwórz przeglądarkę i podaj URL
+```
+http://localhost:8080/api/users/{username}/repositories
+```
+{username}-nazwa użytkownika GITHUB
+### Przykład:
+```
+http://localhost:8080/api/users/P3CZRI6/repositories
+```
+
+## Obsługa błędów
+Jeśli użytkownik GitHub nie istnieje, API zwróci odpowiedź 404:
+```
+{
+  "status": 404,
+  "message": "User not found"
+}
+```
+
+## Struktura Projektu
+
+
+
+## Autor
+
+
+
