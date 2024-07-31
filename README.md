@@ -5,7 +5,7 @@ Projekt Java to aplikacja napisana w Java z użyciem Spring Boot, która pozwala
 
 ## Technologie
 - Java 21
-- Spring Boot 3 (WebFlux, Lombok, Reactor)
+- Spring Boot 3.3.2 (WebFlux, Lombok, Reactor)
 
 ## Wymagania
 - Java 21
